@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>color-flipper *Gradient*</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="active">Gradient</li>
+        <li><a href="./index.html">CSS Colors</a></li>
+        <li><a href="./hex.html">Hex Colors</a></li>
+        <li><a href="./rgb.html">RGB Colors</a></li>
+        <li><a href="./rgba.html">RGBA Colors</a></li>
+      </ul>
+    </nav>
+    <main id="main">
+      <div class="color">
+        <div id="gradient">
+          <input
+            class="grad grad1"
+            type="color"
+            name="color1"
+            value="#d32cbe"
+          />
+          <input
+            class="grad grad2"
+            type="color"
+            name="color2"
+            value="#0f2cf0"
+          />
+        </div>
+        <p class="output">background: <span id="clr"></span></p>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; copyright: 2021</p>
+    </footer>
+    <script src="scripts/gradient.js"></script>
+  </body>
+</html>
